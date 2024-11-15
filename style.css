@@ -4,11 +4,11 @@ body {
     background-color: #111;
     margin: 0;
     padding: 0;
-    color: #white;
+    color: white;
 }
 
 header { 
-	background-color: #111111;
+    background-color: #111111;
     text-align: center;
     padding: 40px 0;
 }
@@ -17,20 +17,18 @@ header img {
     width: 300px;
     height: auto;
     margin-bottom: 20px;
-	
-	
 }
 
 nav {
     padding: 15px 0;
     text-align: center;
-	background-color: black
+    background-color: black;
 }
 
 nav a {
     font-size: 18px;
     font-weight: 600;
-    color: #white;
+    color: white;
     text-decoration: none;
     padding: 10px 20px;
     margin: 0 15px;
@@ -39,27 +37,32 @@ nav a {
 
 nav a:hover {
     color: #9B59B6;
- }
+}
+
+/* Active Link Style */
+nav a.active {
+    font-weight: bold;
+    color: #6a1b9a;  /* Active link color */
+}
 
 main {
     padding: 100px 20px;
     text-align: center;
-	background-color: black
-		
+    background-color: black;
 }
 
 main h1 {
     font-size: 4em; 
     margin: 0; 
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
-	color: white
+    color: white;
 }
 
 main p {
     font-size: 2em; 
     margin-top: 10px; 
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
-	color: white
+    color: white;
 }
 
 footer {
@@ -137,7 +140,6 @@ footer {
     margin-top: 40px;
 }
 
-
 /*Contact*/
 * {
     margin: 0;
@@ -163,9 +165,8 @@ header h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     color: #3B0172;
-	text-decoration: bold
-	text-decoration color: #61208C
-	
+    text-decoration: bold;
+    text-decoration-color: #61208C;
 }
 
 header p {
@@ -177,7 +178,7 @@ header p {
     max-width: 600px;
     margin: 2rem auto;
     padding: 1.5rem;
-    background-color: #black;
+    background-color: black;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -245,7 +246,6 @@ body {
     color: #333;
 }
 
-
 header {
     background-color: #000;
     color: #fff;
@@ -269,18 +269,22 @@ header nav ul li a {
     font-size: 16px;
 }
 
+/* Active Link Style */
+header nav ul li a.active {
+    font-weight: bold;
+    color: #6a1b9a;
+}
 
 .shop {
     text-align: center;
     padding: 50px 20px;
-	background-color: black
-	
+    background-color: black;
 }
 
 .shop h1 {
     font-size: 36px;
     margin-bottom: 40px;
-	color: white
+    color: white;
 }
 
 .product-grid {
@@ -289,7 +293,6 @@ header nav ul li a {
     gap: 20px;
     padding: 0 10px;
 }
-
 
 .product-card {
     background-color: #fff;
@@ -307,13 +310,13 @@ header nav ul li a {
 
 .product-info {
     padding: 15px;
-	background-color: #210140
+    background-color: #210140;
 }
 
 .product-info h2 {
     font-size: 22px;
     margin-bottom: 10px;
-	color: white
+    color: white;
 }
 
 .price {
@@ -337,7 +340,6 @@ header nav ul li a {
     background-color: #4a148c;
 }
 
-
 .product-card:hover {
     transform: scale(1.05);
 }
@@ -352,4 +354,3 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
