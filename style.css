@@ -105,9 +105,10 @@ nav a {
     font-size: 18px;
 }
 
+/*
 nav a.active {
     border-bottom: 2px solid #6a4cbb;
-}
+}*/
 
 .about-us {
     max-width: 800px;
