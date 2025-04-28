@@ -43,7 +43,7 @@ nav ul li a:hover {
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
+  gap: 20px;
   padding: 40px 20px;
   background-color: black;
 }
@@ -70,13 +70,18 @@ nav ul li a:hover {
 .product h2 {
   color: #9B59B6; /* Light purple */
   margin-top: 15px;
-  font-size: 1.5em;
+  font-size: 1.4em;
+  line-height: 1.2;
+}
+
+/* Logo Size */
+.logo {
+  width: 200px;
+  height: auto;
 }
 
 /* Logo Spin */
 .logo-spin {
-  width: 300px;
-  height: auto;
   animation: spin 8s linear infinite;
 }
 
@@ -87,6 +92,15 @@ nav ul li a:hover {
   to {
     transform: rotateY(360deg);
   }
+}
+
+/* Center Text */
+.center-text {
+  text-align: center;
+  font-size: 3em;
+  color: #9B59B6; /* Light purple */
+  margin-top: 50px;
+  font-weight: bold;
 }
 
 /* Footer Styles */
@@ -115,8 +129,12 @@ footer {
     font-size: 1.2em;
   }
 
-  .logo-spin {
-    width: 200px;
+  .logo {
+    width: 150px;
+  }
+
+  .center-text {
+    font-size: 2em;
   }
 }
 
@@ -131,8 +149,12 @@ footer {
     font-size: 1.4em;
   }
 
-  .logo-spin {
-    width: 250px;
+  .logo {
+    width: 200px;
+  }
+
+  .center-text {
+    font-size: 2.5em;
   }
 }
 
@@ -147,7 +169,11 @@ footer {
     font-size: 1.5em;
   }
 
-  .logo-spin {
-    width: 300px;
+  .logo {
+    width: 250px;
+  }
+
+  .center-text {
+    font-size: 3em;
   }
 }
