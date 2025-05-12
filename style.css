@@ -3,7 +3,7 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #1C1C1C; /* Dark background for the body */
+  background-color: #1C1C1C; /* Dark background */
   color: #fff;
 }
 
@@ -41,8 +41,9 @@ nav ul li a:hover {
 
 /* Shop Page */
 .product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
   padding: 40px 20px;
   background-color: black;
@@ -52,8 +53,10 @@ nav ul li a:hover {
   background-color: #111;
   border-radius: 12px;
   padding: 20px;
-  text-align: center;
+  width: 100%;
+  max-width: 300px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
   transition: transform 0.3s;
 }
 
@@ -65,12 +68,14 @@ nav ul li a:hover {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
+  margin: 0 auto;
 }
 
 .product h2 {
   color: #9B59B6; /* Light purple */
   margin-top: 15px;
-  font-size: 1.4em;
+  font-size: 1.3em;
   line-height: 1.2;
 }
 
@@ -98,7 +103,7 @@ nav ul li a:hover {
 .center-text {
   text-align: center;
   font-size: 3em;
-  color: #9B59B6; /* Light purple */
+  color: #9B59B6;
   margin-top: 50px;
   font-weight: bold;
 }
@@ -108,12 +113,10 @@ footer {
   text-align: center;
   padding: 20px;
   background-color: #111;
-  color: #9B59B6; /* Light purple */
+  color: #9B59B6;
 }
 
-/* Media Queries for Responsiveness */
-
-/* Mobile Devices (up to 600px) */
+/* Mobile Devices */
 @media (max-width: 600px) {
   nav ul li {
     display: block;
@@ -138,7 +141,7 @@ footer {
   }
 }
 
-/* Tablets (600px to 900px) */
+/* Tablets */
 @media (max-width: 900px) {
   nav ul li {
     display: inline-block;
@@ -158,7 +161,7 @@ footer {
   }
 }
 
-/* Desktops (above 900px) */
+/* Desktops */
 @media (min-width: 900px) {
   nav ul li {
     display: inline-block;
